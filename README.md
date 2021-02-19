@@ -9,8 +9,9 @@ netbox-scanner is compatible with **Python 3.7+**, and can be installed like thi
 
 ```bash
 $ wget https://github.com/boktai1000/netbox-scanner/archive/master.zip
-$ unzip master.zip -d netbox-scanner
-$ cd netbox-scanner
+$ apt install -y unzip
+$ unzip master.zip -d /opt/netbox-scanner
+$ cd /opt/netbox-scanner
 $ python3 -m venv venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt

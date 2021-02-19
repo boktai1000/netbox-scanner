@@ -14,6 +14,7 @@ $ unzip master.zip -d /opt/netbox-scanner
 $ cd /opt/netbox-scanner
 $ python3 -m venv venv
 $ source venv/bin/activate
+$ cd netbox-scanner-master/
 $ pip install -r requirements.txt
 $ mv netbox-scanner.conf /opt/netbox/netbox-scanner.conf
 ```

@@ -32,6 +32,18 @@ $ mkdir scans
 1. Configure *address* and API *token* in `netbox-scanner.conf`.
 1. Configure the networks to scan in `networks.txt`.
 
+## Making a Cronjob
+
+```bash
+$ crontab -e
+$ 0 1 * * * /opt/netbox-scanner/netbox-scanner-master/nmap-scan.sh
+```
+
+- https://phoenixnap.com/kb/set-up-cron-job-linux
+- https://crontab.guru/every-day-at-1am 
+- https://linuxize.com/post/scheduling-cron-jobs-with-crontab/ 
+- https://www.cyberciti.biz/faq/how-do-i-add-jobs-to-cron-under-linux-or-unix-oses/
+
 After installation, use the `netbox-scanner.conf` file as an example to create your own and put this file in `/opt/netbox` or prepend its name with a dot and put it in your home directory --`~/.netbox-scanner.conf`.  Keep reading to learn more about configuration.
 
 > Starting with Netbox **v2.9.0** there are changes to the way tags are created. You must go into the web UI and explicity create a tag for each module you are planning to use here. So for example, if you want to use the nmap module, you have to create a Netbox tag called 'nmap' before you can successfully use it.

@@ -14,6 +14,7 @@ $ cd netbox-scanner
 $ python3 -m venv venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
+$ mv netbox-scanner.conf /opt/netbox/netbox-scanner.conf
 ```
 
 After installation, use the `netbox-scanner.conf` file as an example to create your own and put this file in `/opt/netbox` or prepend its name with a dot and put it in your home directory --`~/.netbox-scanner.conf`.  Keep reading to learn more about configuration.

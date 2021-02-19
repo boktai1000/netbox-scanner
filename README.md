@@ -102,3 +102,10 @@ New modules should be implemented as a new file with the name of the module, for
 
 ## License
 netbox-scanner is licensed under an MIT license --read `LICENSE` file for more information.
+
+## Sources
+- https://github.com/lopes/netbox-scanner
+- https://github.com/casperklein/docker-netbox-scanner
+- https://github.com/ToroNZ/netbox-scanner-container
+- https://pentest-tools.com/blog/nmap-port-scanner/#:~:text=During%20a%20TCP%20ACK%20scan,be%20defined%20by%20the%20user. 
+- https://www.virtualizationhowto.com/2019/08/free-ipam-open-source-netbox-ip-scanner/ 

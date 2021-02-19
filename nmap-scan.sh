@@ -48,5 +48,5 @@ for net in "${NETWORKS[@]}"; do
 done
 
 python3 netbox-scanner.py nmap
-tar -czvf scans/nmap-"$TODAY".tar.gz *.xml
+tar -czvf /opt/netbox-scanner/netbox-scanner-master/scans/nmap-"$TODAY".tar.gz *.xml
 rm -rf *.xml

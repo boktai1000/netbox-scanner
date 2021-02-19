@@ -8,7 +8,7 @@ A scanner util for [NetBox](https://netbox.readthedocs.io/en/stable/), because c
 netbox-scanner is compatible with **Python 3.7+**, and can be installed like this:
 
 ```bash
-$ wget https://github.com/boktai1000/netbox-scanner/master.zip
+$ wget https://github.com/boktai1000/netbox-scanner/archive/master.zip
 $ unzip master.zip -d netbox-scanner
 $ cd netbox-scanner
 $ python3 -m venv venv

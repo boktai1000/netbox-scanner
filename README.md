@@ -22,6 +22,15 @@ $ chmod +x nmap-scan.sh
 $ mkdir logs
 $ mkdir scans
 ```
+## Setup Netbox
+
+1. Goto `Organization / Tags` and create a new tag: `nmap`.
+1. Goto `Profile / API Tokens` and create a token, for use with netbox-scanner.
+
+## Setup Netbox-Scanner
+
+1. Configure *address* and API *token* in `netbox-scanner.conf`.
+1. Configure the networks to scan in `networks.txt`.
 
 After installation, use the `netbox-scanner.conf` file as an example to create your own and put this file in `/opt/netbox` or prepend its name with a dot and put it in your home directory --`~/.netbox-scanner.conf`.  Keep reading to learn more about configuration.
 

@@ -36,7 +36,7 @@ $ mkdir scans
 
 ```bash
 $ crontab -e
-$ 0 1 * * * /opt/netbox-scanner/netbox-scanner-master/nmap-scan.sh
+$ 0 1 * * * /opt/netbox-scanner/netbox-scanner-master/nmap-scan.sh > /opt/netbox-scanner/netbox-scanner-master/netbox-cronjob.log
 ```
 
 - https://phoenixnap.com/kb/set-up-cron-job-linux

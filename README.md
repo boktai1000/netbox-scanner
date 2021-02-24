@@ -34,10 +34,13 @@ $ mkdir scans
 
 ## Making a Cronjob
 
+By sending output to a log file, you can validate that your job is running properly. For testing purposes, you may want the job to run every minute ```* * * * *```
+
 ```bash
 $ crontab -e
 $ 0 1 * * * /opt/netbox-scanner/netbox-scanner-master/nmap-scan.sh > /opt/netbox-scanner/netbox-scanner-master/netbox-cronjob.log
 ```
+
 
 - https://phoenixnap.com/kb/set-up-cron-job-linux
 - https://crontab.guru/every-day-at-1am 

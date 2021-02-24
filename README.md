@@ -34,7 +34,7 @@ $ mkdir scans
 
 ## Making a Cronjob
 
-By sending output to a log file, you can validate that your job is running properly. For testing purposes, you may want the job to run every minute ```* * * * *```
+By sending output to a log file, you can validate that your job is running properly. For testing purposes, you may want the job to run every minute ```* * * * *``` instead of ```0 1 * * *```
 
 ```bash
 $ crontab -e

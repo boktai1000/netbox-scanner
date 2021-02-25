@@ -21,6 +21,8 @@ $ cd /opt/netbox-scanner/netbox-scanner-master
 $ chmod +x nmap-scan.sh
 $ mkdir logs
 $ mkdir scans
+$ reboot
+$ pip install pynetbox
 ```
 ## Setup Netbox
 

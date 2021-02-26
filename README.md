@@ -8,21 +8,21 @@ A scanner util for [NetBox](https://netbox.readthedocs.io/en/stable/), because c
 netbox-scanner is compatible with **Python 3.7+**, and can be installed like this:
 
 ```bash
-$ wget https://github.com/boktai1000/netbox-scanner/archive/master.zip
-$ apt install -y unzip nmap
-$ unzip master.zip -d /opt/netbox-scanner
-$ cd /opt/netbox-scanner
-$ python3 -m venv venv
-$ source venv/bin/activate
-$ cd netbox-scanner-master/
-$ pip install -r requirements.txt
-$ mv netbox-scanner.conf /opt/netbox/netbox-scanner.conf
-$ cd /opt/netbox-scanner/netbox-scanner-master
-$ chmod +x nmap-scan.sh
-$ mkdir logs
-$ mkdir scans
-$ reboot
-$ pip install pynetbox
+wget https://github.com/boktai1000/netbox-scanner/archive/master.zip
+apt install -y unzip nmap
+unzip master.zip -d /opt/netbox-scanner
+cd /opt/netbox-scanner
+python3 -m venv venv
+source venv/bin/activate
+cd netbox-scanner-master/
+pip install -r requirements.txt
+mv netbox-scanner.conf /opt/netbox/netbox-scanner.conf
+cd /opt/netbox-scanner/netbox-scanner-master
+chmod +x nmap-scan.sh
+mkdir logs
+mkdir scans
+reboot
+pip install pynetbox
 ```
 ## Setup Netbox
 

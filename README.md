@@ -34,7 +34,7 @@ pip install pynetbox
 - Configure *address* and API *token* in `netbox-scanner.conf` - `/opt/netbox/netbox-scanner.conf`
 - Configure the networks to scan in `networks.txt` - `/opt/netbox-scanner/netbox-scanner-master/networks.txt`
 
-## Changing Directories
+## Changing Install Directories
 
 - Search this project for references to a directory you want to change, I had to hardcode some locations in to make this compatible to be run as a cronjob. Simply update the hardcoded values with your own and it should work, at least in my own testing.
 - This fork is a bit less portable in that regard, but hopefully by editing the directories in will allow you to find and adjust them to your liking for your own deployment

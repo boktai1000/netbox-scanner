@@ -25,7 +25,7 @@
 
 # mapfile
 declare -a NETWORKS
-mapfile -t NETWORKS < networks.txt
+mapfile -t NETWORKS < /opt/netbox-scanner/netbox-scanner-master/networks.txt
 
 # small array
 #NETWORKS="192.168.3.0/24 192.168.252.0/24"

@@ -26,13 +26,18 @@ pip install pynetbox
 ```
 ## Setup Netbox
 
-1. Goto `Organization / Tags` and create a new tag: `nmap`.
-1. Goto `Profile / API Tokens` and create a token, for use with netbox-scanner.
+- Goto `Organization / Tags` and create a new tag: `nmap`.
+- Goto `Profile / API Tokens` and create a token, for use with netbox-scanner.
 
 ## Setup Netbox-Scanner
 
-1. Configure *address* and API *token* in `netbox-scanner.conf`. (`/opt/netbox/netbox-scanner.conf`)
-1. Configure the networks to scan in `networks.txt`. (`/opt/netbox-scanner/netbox-scanner-master/networks.txt`)
+- Configure *address* and API *token* in `netbox-scanner.conf`. (`/opt/netbox/netbox-scanner.conf`)
+- Configure the networks to scan in `networks.txt`. (`/opt/netbox-scanner/netbox-scanner-master/networks.txt`)
+
+## Changing Directories
+
+- Search this project for instances of a directory, as some are hardcoded to make this compatible to be ran as a cronjob. Simply update the hardcoded values with your own.
+- This fork is a bit less portable in that regard, but hopefully by editing the directories in will allow you to find and adjust them to your liking for your own deployment
 
 ## Making a Cronjob
 

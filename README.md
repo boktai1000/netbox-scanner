@@ -31,8 +31,8 @@ pip install pynetbox
 
 ## Setup Netbox-Scanner
 
-1. Configure *address* and API *token* in `netbox-scanner.conf`.
-1. Configure the networks to scan in `networks.txt`.
+1. Configure *address* and API *token* in `netbox-scanner.conf`. (`/opt/netbox/netbox-scanner.conf`)
+1. Configure the networks to scan in `networks.txt`. (`/opt/netbox-scanner/netbox-scanner-master/networks.txt`)
 
 ## Making a Cronjob
 
